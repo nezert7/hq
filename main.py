@@ -26,7 +26,7 @@ class Example(QMainWindow, Ui_MainWindow):
 
     def draw_flag(self, qp):
         # Задаем кисть
-        qp.setBrush(QColor(random.randrange(0, 255), random.randrange(0, 255), random.randrange(0, 255)))
+        qp.setBrush(QColor())
         x = random.randrange(1, 700)
         y = random.randrange(1, 500)
         diametr = random.randrange(25, 500)
